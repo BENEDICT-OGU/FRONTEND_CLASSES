@@ -3,9 +3,138 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>form</title>
 </head>
 <body>
-    
+    <form action="/submit_form" method="post">
+        <h1>LOGIN FORM</h1>
+        <p>please fill the following correctly</p>
+        <label for="name">firstname:</label>
+        <input type="text" id="name" name="firstname" required/><b />
+        <label for="number">AGE:</label>
+        <input type="number" id="age" name="age" required /><br />
+        <label for="name">lastname:</label>
+        <input type="text" id="name" name="lastname" required /><br />
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required /><br />
+  
+        <label for="name">phone:</label>
+        <input type="number" id="number" name="number" required /><br />
+        <label for="select">course of study:</label>
+        <select>
+          <option value="">select course</option>
+          <option value="mathematics" name="subject">mathematics</option>
+          <option value="english" name="subject">english</option>
+          <option value="history" name="subject">history</option>
+          <option value="literature" name="subject">literature</option>
+          <option value="civic" name="subject">civic</option>
+          <option value="physics" name="subject">phyics</option>
+          <option value="chemistry" name="subject">chemistry</option>
+          <option value="biology" name="subject">biology</option>
+        </select><br/>
+        <label for="enrollment">ENROLLMENT DAY:</label>
+        <input type="date" id="DATE" name="DATE" required /><br />
+        <label for="male">male<input type="radio" value="male" name="gender"></label><br>
+        <label for="female">female<input type="radio" value="female" name="gender"></label><br>
+        <label for="others">others<input type="radio" value="others" name="gender"></label>
+  
+        <button type="submit" class="btn-submit">Submit</button>
+      </form>
+      <table>
+          <caption style="font-family: poppins;">REGISTERED STUDENTS</caption>
+          <tr>
+            <th>first name</th>
+            <th>last name</th>
+            <th>email address</th>
+            <th>phone number</th>
+            <th>age</th>
+            <th>gender</th>
+            <th>course of study</th>
+            <th>Enrollment date</th>
+            
+          </tr>
+          <tr>
+            <td>John </td>
+            <td> David</td>
+            <td>johndavid@gmail.com</td>
+            <td>+2347053765436</td>
+            <td>23</td>
+            <td>male</td>
+            <td>mathematics</td>
+            <td>12/06/2024</td>
+          </tr>
+          <tr>
+              <td>samuel</td>
+              <td> olu</td>
+              <td>samuelolu@gmail.com</td>
+              <td>+23470537654567</td>
+              <td>21</td>
+              <td>male</td>
+              <td>mathematics</td>
+              <td>12/06/2024</td>
+            </tr>
+            <tr>
+              <td>tobi </td>
+              <td> taman</td>
+              <td>tobitaman@gmail.com</td>
+              <td>+2347048765436</td>
+              <td>20</td>
+              <td>male</td>
+              <td>english</td>
+              <td>07/06/2024</td>
+            </tr>
+            <tr>
+              <td>nuel </td>
+              <td> Divine</td>
+              <td>nueldivine@gmail.com</td>
+              <td>+234876548480</td>
+              <td>19</td>
+              <td>female</td>
+              <td>biology</td>
+              <td>11/04/2024</td>
+            </tr>
+            <tr>
+              <td>anyanwu </td>
+              <td> john</td>
+              <td>anyanwujohn@gmail.com</td>
+              <td>+2348056432564</td>
+              <td>18</td>
+              <td>male</td>
+              <td>civic</td>
+              <td>12/12/2024</td>
+            </tr>
+            <tr>
+              <td>Jude </td>
+              <td> obi</td>
+              <td>judeobi@gmail.com</td>
+              <td>+2349123435476</td>
+              <td>25</td>
+              <td>male</td>
+              <td>english</td>
+              <td>11/3/2024</td>
+            </tr>
+              <tr>
+                  <td>florence</td>
+                  <td> awani</td>
+                  <td>florenceawani@gmail.com</td>
+                  <td>+2349045637873</td>
+                  <td>26</td>
+                  <td>female</td>
+                  <td>commerce</td>
+                  <td>12/3/2024</td>
+                </tr>
+                <tr>
+                  <td>lex</td>
+                  <td> obi</td>
+                  <td>lexobi@gmail.com</td>
+                  <td>+2347016271327</td>
+                  <td>21</td>
+                  <td>male</td>
+                  <td>physics</td>
+                  <td>1/1/2025</td>
+                </tr>
+              </table>
+        
+  
 </body>
 </html>
